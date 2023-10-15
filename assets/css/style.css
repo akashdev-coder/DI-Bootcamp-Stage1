@@ -8,16 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
   margin: 0;
   padding: 0;
 }
-
 
 /* TOP BAR */
 
@@ -178,8 +176,6 @@ span.sub-title:hover {
   color: #242424;
 }
 
-
-
 .pt-90 {
   padding: 90px 0 0 0;
 }
@@ -188,10 +184,6 @@ span.sub-title:hover {
   justify-content: center;
   display: flex;
 }
-
-
-
-
 
 .mobile-menu-icon {
   display: none; /* Hide the icon by default on desktop */
@@ -204,15 +196,15 @@ span.sub-title:hover {
 }
 
 @media (max-width: 768px) {
-
   /* .main-container {
     padding: 0 30px;
   } */
 
-  .text-banner, .text-banner h1 {
+  .text-banner,
+  .text-banner h1 {
     margin-right: 0;
     padding: 15px 0;
-}
+  }
 
   .desktop-nav {
     display: none;
@@ -224,7 +216,7 @@ span.sub-title:hover {
 
   /* Styles for mobile navigation */
   .mobile-menu-icon {
-    display: block; 
+    display: block;
   }
 
   /* Styles for the burger icon */
@@ -321,9 +313,6 @@ span.sub-title:hover {
     width: 100%;
   }
 
-  
-
-
   .flex-col {
     flex-direction: column;
     align-items: center;
@@ -333,8 +322,6 @@ span.sub-title:hover {
     margin-bottom: 1.5rem;
     flex-basis: 100%;
   }
-
-
 }
 
 small {
@@ -351,11 +338,8 @@ small {
 }
 
 .flex-item a:hover img {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
-
-
-
 
 span.logo {
   font-size: 25px;
