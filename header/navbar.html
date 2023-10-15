@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        $(document).ready(function() {
+            $('.burger-icon').click(function() {
+                // Check if .desktop-nav is visible
+                if ($('.desktop-nav').is(':visible')) {
+                    // If visible, fade it out
+                    $('.desktop-nav').fadeOut();
+                } else {
+                    // If hidden, fade it in
+                    $('.desktop-nav').fadeIn();
+                }
+
+                $(this).toggleClass('open'); // Toggle the 'open' class on the burger icon
+            });
+        });
+    </script>
+  </head>
+  <body>
+    <div class="main-container-fluid">
+      <div class="main-container">
+        <div class="top-bar flex-between">
+          <span class="logo">Elon Musk</span>
+          <div class="mobile-menu-icon">
+            <div class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span> 
+            </div>
+          </div>
+          <nav class="desktop-nav">
+            <ul class="nav-items">
+              <li>
+                <a href="#early">Early Life</a>
+              </li>
+              <li>
+                <a href="#paypal">Paypal</a>
+              </li>
+              <li>
+                <a href="#tesla">Tesla Motors</a>
+              </li>
+              <li>
+                <a href="#spacex">Space X</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
