@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main */
+
+.main-container {
+  max-width: 1070px;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.main-container-fluid {
+  position: relative;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1366px; */
+  margin: 0 auto;
+}
+
+.main-container-fluid,
+.main-container {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+h1 {
+  color: #000;
+  font-size: 5rem;
+  line-height: 33px;
+  font-weight: normal;
+  padding-top: 10px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+
+@media (max-width: 1440px) {
+  .flex-between {
+    margin: 0 1rem;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .pr-25 {
+  padding-right: 25px;
+} */
+
+.pb-13 {
+  padding-bottom: 13px;
+}
+
+
+
+
+p {
+  padding-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pt-3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex-basis: calc(33.33%);
+  text-align: center;
+}
+
+.flex-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+span.sub-title {
+  font-size: 21px;
+  color: #000;
+  display: block;
+  font-weight: 600;
+}
+
+span.sub-title:hover {
+  color: #242424;
+}
+
+.pt-90 {
+  padding: 90px 0 0 0;
+}
+
+.justify-content-center {
+  justify-content: center;
+  display: flex;
+}
+
+
+@media (max-width: 768px) {
+  /* .main-container {
+    padding: 0 30px;
+  } */
+
+
+  .main-container-banner {
+    /* padding-left: 139px; */
+    padding: unset;
+    width: 100%;
+  }
+
+  .flex-col {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-item {
+    margin-bottom: 1.5rem;
+    flex-basis: 100%;
+  }
+}
+
+
+
+
+
+span.btn {
+  background-color: #1081FF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.back-black {
+  background: url(img/thor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.input-container {
+  width: 30%;
+  padding-left: 2rem;
+}
+
+.input-container p {
+  color: #000;
+  font-weight: 500;
+}
+
+.back-black h1 {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+
+.pt-5 {
+  padding-top: 5rem;
+}
+
+.flex-item a i {
+  padding-bottom: 25px;
+}
+
+.p-3 {
+  padding: 1rem 0;
+} 
+
+.navbar {
+  background-color: #1B1B1B;
+}
+nav {
+  margin-right: 10px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items li {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 35px;
+  text-transform: uppercase;
+}
