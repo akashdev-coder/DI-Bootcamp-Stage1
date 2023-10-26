@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.login-container {
+    width: 1080px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: table;
+}
+.column {
+    display: table-cell;
+    vertical-align: middle;
+}
+.left-column {
+    background-color: #fff;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.left-column i {
+    font-size: 100px;
+}
+.right-column {
+    padding: 30px;
+    background: linear-gradient(to bottom right, #282135, #9327A6);
+}
+.login-form {
+    text-align: left;
+}
+.login-form label {
+    color: #000;
+    display: inline;
+    margin-bottom: 10px;
+}
+.login-form input[type="text"], .login-form input[type="password"] {
+    width: 91%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+.login-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+.login-form .forgot-password {
+    text-decoration: none;
+    color: #000;
+    float: right;
+}
+.login-form .connect-with {
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+}
+.login-form .connect-with i {
+    font-size: 15px;
+    margin: 0 10px;
+}
+.login-form .welcome-text {
+    margin-top: 20px;
+}
+.login-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+span.button {
+    text-align: center !important;
+    margin: 15px auto;
+    display: block;
+    background-color: #802692;
+    width: 100% !important;
+    padding: 10px;
+}
+span.title {
+    text-align: center !important;
+    display: block;
+    padding-bottom: 1rem;
+}
+h1 {
+    color: #fff;
+}
+i.fa.fa-user-plus {
+    font-size: 60px;
+    color: #fff;
+}
+.welcome-text p {
+    color: #fff;
+    padding-bottom: 1rem;
+}
+h2 {
+    font-size: 2rem;
+    color: #000;
+}
+span.title {
+    text-align: center !important;
+    display: block;
+    padding-bottom: 1rem;
+    color: #000;
+}
+span.buttons {
+    padding: 10px 25px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: #fff;
+}
