@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.left-column {
+  float: left;
+  width: 30%;
+  padding: 200px 20px 0px;
+  background: #000;
+  color: #fff;
+  min-height: 73vw;
+  text-align: center;
+}
+.right-column {
+  margin-left: 35%;
+  padding: 20px;
+}
+h1 {
+  color: #fff;
+  font-size: 28px;
+}
+section {
+  margin-top: 20px;
+}
+.profile-img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.fa {
+  font-size: 24px;
+  color: #0077B5;
+ /* LinkedIn blue color */
+  text-decoration: none;
+  margin-right: 10px;
+ /* Add spacing between the icons */
+}
+.fa-github {
+  color: #333;
+ /* GitHub black color */
+}
+i.fab {
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  padding-bottom: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+span.JobTitle {
+  font-size: 1rem;
+}
+.skills-column {
+  float: left;
+  width: 45%;
+ /* Adjust the width to your preference */
+  margin-right: 5%;
+ /* Add spacing between columns */
+}
